@@ -17,8 +17,9 @@ import java.sql.DriverManager;
 
 
 public class DatabaseAccess {
-	private static String username = "admin";
-	private static String password = "admin";
+	//Changed username and password back to "admin" and "admin". 
+	private static String username = "root";
+	private static String password = "";
 	private static String database = "comp3095";
 	
 	  private static Connection connect = null;

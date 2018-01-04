@@ -16,6 +16,9 @@
 	<div class="container">
 		<a href="${pageContext.request.contextPath}/employee_entry">Add a Employee Entry to the Database</a>
 	</div>
+	<div class="container">
+		<a href="${pageContext.request.contextPath}/employee_view">View Employees</a>
+	</div>
 </body>
 </html>
 <% } else { 
